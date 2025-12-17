@@ -1,10 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 <head>
-<title>Book store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطاقة تعريفية احترافية</title>
+    <style>
+        /* CSS - تنسيق التصميم */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            width: 350px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px); /* تأثير حركة عند تمرير الماوس */
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #eee;
+            margin-bottom: 20px;
+            border: 5px solid #9face6;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        p {
+            color: #777;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: #6c63ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #5149d1;
+        }
+    </style>
 </head>
-</body>
-This is myBook store,welcome
+<body>
+
+    <!-- HTML - هيكل الصفحة -->
+    <div class="card">
+        <img src="via.placeholder.com" alt="Profile" class="profile-img">
+        <h2>مرحباً بك!</h2>
+        <p>هذا تصميم بسيط واحترافي تم إنشاؤه باستخدام HTML و CSS. يمكنك تعديل النصوص والألوان بسهولة لبناء موقعك الخاص.</p>
+        <a href="#" class="btn">تواصل معي</a>
+    </div>
+
 </body>
 </html>
+
 
  
